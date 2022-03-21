@@ -1,0 +1,24 @@
+.leftbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100px;
+  margin-top: 8px;
+}
+.leftbar ul {
+  padding: 0;
+}
+.leftbar li {
+  margin-top: 3px;
+  list-style-type: none;
+}
+.leftbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.leftbar a:hover {
+  color: gray;
+}
+/*# sourceMappingURL=leftBar.css.map */

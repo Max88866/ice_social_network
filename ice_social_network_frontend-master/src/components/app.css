@@ -1,0 +1,23 @@
+.main {
+  background: url("../assets/img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main .content-flex {
+  display: flex;
+  padding: 0 150px;
+}
+html {
+  background: url("../assets/img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+button:active,
+button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=app.css.map */

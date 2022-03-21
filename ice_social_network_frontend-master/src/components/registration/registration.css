@@ -1,0 +1,27 @@
+.login-checkbox {
+  display: none;
+}
+.reg-flex {
+  margin-top: 50px !important;
+}
+.checkbox-label {
+  cursor: pointer;
+}
+checkbox label:before {
+  border: solid #E353D5 1px;
+  border-radius: 3px;
+}
+input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  background: #E353D5;
+  border-radius: 3px;
+}
+input[type="checkbox"]:checked + label span {
+  background: url("../../assets/img/check.png") -19px center;
+}
+/*# sourceMappingURL=registration.css.map */

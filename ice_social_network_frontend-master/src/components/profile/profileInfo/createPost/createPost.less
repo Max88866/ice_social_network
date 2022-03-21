@@ -1,0 +1,98 @@
+.post-creator {
+  width: 100%;
+  border-radius: 10px;
+  margin: 25px auto 25px auto;
+  background: white;
+  padding: 10px;
+  border: solid #E353D5 2px;
+
+  &-flex {
+    border-radius: 10px;
+    .post-btns {
+      display: flex;
+      justify-content: flex-end;
+      margin: 3px 5px 7px 0;
+      .micro {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        background: url("../../../../assets/img/micro.png") no-repeat center center;
+        background-size: cover;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.25);
+      }
+      .post-btn {
+        padding: 3px 25px;
+        border: none;
+        border-radius: 5px;
+        background: #E353D5;
+        box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.25);
+        color: white;
+        margin: 0 5px;
+
+
+        &:active, &:focus {
+          outline: none !important;
+        }
+      }
+    }
+
+    .file-label {
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      background: url("../../../../assets/img/skrepka.png") no-repeat center center;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.25);
+      margin-right: 7px;
+    }
+
+    .skrepka-btn {
+      display: none;
+    }
+
+    .create-area {
+      background: white;
+      border: none;
+      resize: none;
+      width: 98%;
+      height: 60px;
+      margin: 3px;
+      padding: 5px;
+      &::-webkit-scrollbar { width: 0 ; }
+
+      /* ie 10+ */
+      -ms-overflow-style: none;
+
+      /* фф (свойство больше не работает, других способов тоже нет)*/
+      overflow: -moz-scrollbars-none;
+      &::-webkit-input-placeholder
+      {
+        font-weight: 500;
+        color: gray;
+      }
+      &:active, &:focus {
+        outline: none;
+      }
+    }
+
+    .loaded {
+      border-top: solid lightgray 2px;
+      padding: 5px;
+      display: none;
+
+      &-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        background: no-repeat center center;
+        background-size: cover;
+      }
+    }
+  }
+}
